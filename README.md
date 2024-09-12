@@ -23,8 +23,8 @@ W \\
 > $$\begin{bmatrix}
 W \\ 
 Y
-\end{bmatrix} = A\
-begin{bmatrix}
+\end{bmatrix} = A
+\begin{bmatrix}
 W \\ 
 \epsilon
 \end{bmatrix} =
