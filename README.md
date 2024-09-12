@@ -15,7 +15,7 @@ $$\epsilon \sim \mathcal{N}(\overline{\epsilon}, \Sigma_\epsilon )$$
 4. Fact: Every linear combination of components of a multivariate normal distribution is also normally distributed. Assuming, $\overline{\epsilon}=0$,  we have: 
 > $$\begin{pmatrix}W \\ Y\end{pmatrix} \sim\mathcal{N}\left( \begin{pmatrix}\overline{w} \\\phi\overline{w}  \end{pmatrix},\begin{pmatrix} \Sigma_W & \Sigma_W\phi^T \\ \phi\Sigma_W & \phi\Sigma_W\phi^T + \Sigma_\epsilon end{pmatrix}\right)$$
 $$\mu_{\text{post}} = \overline{w}+ \Sigma_{\text{W}} \phi^T (\phi \Sigma_{\text{W}} \phi^T + \Sigma_\epsilon)^{-1} (Y - \phi \overline{w})$$
-$$\Sigma_{\text{post}} = \Sigma_{\text{W}} - \Sigma_{\text{W}} \phi^T (\phi \Sigma_{\text{W}} \phi^T + \Sigma_\epsilon)^{-1} \phi Sigma_{\text{W}}$$ 
+$$\Sigma_{\text{post}} = \Sigma_{\text{W}} - \Sigma_{\text{W}} \phi^T (\phi \Sigma_{\text{W}} \phi^T + \Sigma_\epsilon)^{-1} \phi \Sigma_{\text{W}}$$ 
 where $\mu_{\text{post}}$ and $\Sigma_{\text{post}}$ are the parameters of the posterior distribution $P(W|Y)$.
 
 5. This result agrees with the regularized closed form MAP estimate of weights as setting a prior $P(W)$, acts as regularization: 
