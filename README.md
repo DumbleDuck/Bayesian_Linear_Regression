@@ -4,12 +4,6 @@
 > $$
 Y = \phi(X) \cdot W + \epsilon
 $$
-> $$
-W \sim \mathcal{N} ( \overline{w} ,\Sigma_w)
-$$  
-> $$
-\epsilon \sim \mathcal{N}(\overline{\epsilon}, \Sigma_\epsilon)
-$$
 
 2.  Fact: For joint normality, we have if X and Y are normally distributed and independent the (X,Y) must also have a multivariate normal distribution. 
 > $$\begin{pmatrix}W \\ \epsilon \end{pmatrix} \sim\mathcal{N}\left( \begin{pmatrix}\overline{w}\\\overline{\epsilon}  \end{pmatrix},\begin{pmatrix} \Sigma_W & 0 \\ 0& \Sigma_\epsilon\end{pmatrix}\right)$$
