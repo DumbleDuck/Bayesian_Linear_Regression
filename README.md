@@ -54,7 +54,7 @@ Y
 >$\mu_{\text{post}} = \overline{w}+ \Sigma_{\text{W}} \phi^T (\phi \Sigma_{\text{W}} \phi^T + \Sigma_\epsilon)^{-1} (Y - \phi \overline{w})$ <br>
 $\Sigma_{\text{post}} = \Sigma_{\text{W}} - \Sigma_{\text{W}} \phi^T (\phi \Sigma_{\text{W}} \phi^T + \Sigma_\epsilon)^{-1} \phi \Sigma_{\text{W}}$ <br> 
 
-where $\mu_{\text{post}}$ and $\Sigma_{\text{post}}$ are the parameters of the posterior distribution $P(W|Y)$.
+where $\mu_{\text{post}}$ and $\Sigma_{\text{post}}$ are the parameters of the posterior distribution $P(W|Y)$. (CM Bishop Pg 87)
 
 5. This result agrees with the regularized closed form MAP estimate of weights as setting a prior $P(W)$, acts as regularization: 
 > $W_{\text{MAP}}= (\phi^T\phi + \lambda I)^{-1}\phi^TY$ <br>
