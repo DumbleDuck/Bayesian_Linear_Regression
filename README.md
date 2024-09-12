@@ -6,7 +6,7 @@
 > $\epsilon \sim \mathcal{N}(\overline{\epsilon}, \Sigma_\epsilon)$
 
 2.  Fact: For joint normality, we have if X and Y are normally distributed and independent the (X,Y) must also have a multivariate normal distribution. 
-> $$\begin{pmatrix}W \\ \epsilon \end{pmatrix} \sim\mathcal{N}\left( \begin{pmatrix}\overline{w}\\\overline{\epsilon}  \end{pmatrix},\begin{pmatrix} \Sigma_W & 0 \\ 0& \Sigma_\epsilon\end{pmatrix}\right)$$
+> $$\begin{pmatrix}W \\ \epsilon \end{pmatrix} \sim\mathcal{N}\left(\begin{pmatrix}\overline{w} \\ \overline{\epsilon} \end{pmatrix},\begin{pmatrix} \Sigma_W & 0 \\ 0 & \Sigma_\epsilon \end{pmatrix}\right)$$
 
 3. We can write the joint distribution $Y$ as a linear combination of $W,\epsilon$ using the following relation:
 > $$\begin{bmatrix}W \\Y\end{bmatrix} = A\begin{bmatrix}W \\ \epsilon\end{bmatrix}=\begin{bmatrix}I & 0 \\ \phi(X) & I\end{bmatrix}\begin{bmatrix}W \\ \epsilon\end{bmatrix}$$
