@@ -50,8 +50,8 @@ Y
 \Sigma_W & \Sigma_W\phi^T \\
 \phi\Sigma_W & \phi\Sigma_W\phi^T+\Sigma_\epsilon 
 \end{pmatrix}\right)$$ <br>
->$$\mu_{\text{post}} = \overline{w}+ \Sigma_{\text{W}} \phi^T (\phi \Sigma_{\text{W}} \phi^T + \Sigma_\epsilon)^{-1} (Y - \phi \overline{w})$$ <br>
-$$\Sigma_{\text{post}} = \Sigma_{\text{W}} - \Sigma_{\text{W}} \phi^T (\phi \Sigma_{\text{W}} \phi^T + \Sigma_\epsilon)^{-1} \phi \Sigma_{\text{W}}$$ <br> 
+>$\mu_{\text{post}} = \overline{w}+ \Sigma_{\text{W}} \phi^T (\phi \Sigma_{\text{W}} \phi^T + \Sigma_\epsilon)^{-1} (Y - \phi \overline{w})$ <br>
+$\Sigma_{\text{post}} = \Sigma_{\text{W}} - \Sigma_{\text{W}} \phi^T (\phi \Sigma_{\text{W}} \phi^T + \Sigma_\epsilon)^{-1} \phi \Sigma_{\text{W}}$ <br> 
 
 where $\mu_{\text{post}}$ and $\Sigma_{\text{post}}$ are the parameters of the posterior distribution $P(W|Y)$.
 
