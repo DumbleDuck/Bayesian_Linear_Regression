@@ -15,13 +15,13 @@ $$\epsilon \sim \mathcal{N}(\overline{\epsilon}, \Sigma_\epsilon )$$
 4. Fact: Every linear combination of components of a multivariate normal distribution is also normally distributed. Assuming, $\overline{\epsilon}=0$,  we have: 
 > $$\begin{pmatrix}W \\ Y\end{pmatrix} \sim\mathcal{N}\left( \begin{pmatrix}\overline{w} \\\phi\overline{w}  \end{pmatrix},\begin{pmatrix} \Sigma_W & \Sigma_W\phi^T \\ \phi\Sigma_W & \phi\Sigma_W\phi^T + \Sigma_\epsilon end{pmatrix}\right)$$
 $$\mu_{\text{post}} = \overline{w}+ \Sigma_{\text{W}} \phi^T (\phi \Sigma_{\text{W}} \phi^T + \Sigma_\epsilon)^{-1} (Y - \phi \overline{w})$$
-$$\Sigma_{\text{post}} = \Sigma_{\text{W}} - \Sigma_{\text{W}} \phi^T (\phi \Sigma_{\text{W}} \phi^T + \Sigma_\epsilon)^{-1} \phi \Sigma_{\text{W}}$$ 
+$$\Sigma_{\text{post}} = \Sigma_{\text{W}} - \Sigma_{\text{W}} \phi^T (\phi \Sigma_{\text{W}} \phi^T + \Sigma_\epsilon)^{-1} \phi \Sigma_{\text{W}}$$ <br> 
 where $\mu_{\text{post}}$ and $\Sigma_{\text{post}}$ are the parameters of the posterior distribution $P(W|Y)$.
 
 5. This result agrees with the regularized closed form MAP estimate of weights as setting a prior $P(W)$, acts as regularization: 
-> $W_{\text{MAP}}= (\phi^T\phi + \lambda I)^{-1}\phi^TY$
+> $W_{\text{MAP}}= (\phi^T\phi + \lambda I)^{-1}\phi^TY$ <br>
   & $\lambda= {\sigma_{\epsilon}}/{\sigma_{W}}$
 
 6. Predictive distribution $P(\hat{Y}|W)$ can  be given by: 
->  $\mu_{\text{pred}}= \phi\mu_{\text{post}}$
+>  $\mu_{\text{pred}}= \phi\mu_{\text{post}}$ <br>
 >  $\Sigma_{\text{pred}}= \phi\Sigma_{\text{post}}\phi^T$
