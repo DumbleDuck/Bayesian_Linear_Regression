@@ -5,7 +5,7 @@
 > $W \sim \mathcal{N} ( \overline{w} ,\Sigma_w)$ <br> 
   $\epsilon \sim \mathcal{N}(\overline{\epsilon}, \Sigma_\epsilon)$
 
-2.  Fact: For joint normality, we have if X and Y are normally distributed and independent the (X,Y) must also have a multivariate normal distribution. 
+2.  [Property](https://en.wikipedia.org/wiki/Multivariate_normal_distribution#Joint_normality): For joint normality, we have if X and Y are normally distributed and independent the (X,Y) must also have a multivariate normal distribution. 
 > $$\begin{pmatrix}
 W \\ 
 \epsilon 
@@ -37,7 +37,7 @@ W \\
 \epsilon
 \end{bmatrix}$$
 
-4. Fact: Every linear combination of components of a multivariate normal distribution is also normally distributed. Assuming, $\overline{\epsilon}=0$,  we have: 
+4. [Property](https://en.wikipedia.org/wiki/Multivariate_normal_distribution#Equivalent_definitions): Every linear combination of components of a multivariate normal distribution is also normally distributed. Assuming, $\overline{\epsilon}=0$,  we have: 
 > $$\begin{pmatrix}
 W \\ 
 Y
