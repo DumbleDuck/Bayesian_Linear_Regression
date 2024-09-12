@@ -1,7 +1,7 @@
 ## Bayesian linear regression using conjugate Gaussian prior
 
 1. Data is considered to be generated from a true function with added noise. We assume the true function is a linear combination of the weights and inputs. Hence, Bayesian *Linear* Regression. W and $\epsilon$ are the weight and noise distributions respectively. Both are assumed to be Gaussian as it is a conjugate prior for Gaussian likelihood $P(Y|W)$. The equation can then be written as:  
-> $$Y = \phi(X) \cdot W + \epsilon <br>
+> $$Y = \phi(X) \cdot W + \epsilon$$ <br>
 > $$W \sim \mathcal{N} ( \overline{w} ,\Sigma_w)$$ <br> 
 > $$\epsilon \sim \mathcal{N}(\overline{\epsilon}, \Sigma_\epsilon )$$
 
