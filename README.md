@@ -26,12 +26,12 @@ Y
 \end{bmatrix} = A\
 begin{bmatrix}
 W \\ 
-\epsilon\
-end{bmatrix}=
+\epsilon
+\end{bmatrix} =
 \begin{bmatrix}
 I & 0 \\
-\phi(X) & I\
-end{bmatrix}
+\phi(X) & I
+\end{bmatrix}
 \begin{bmatrix}
 W \\
 \epsilon
