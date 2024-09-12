@@ -64,5 +64,7 @@ where $\mu_{\text{post}}$ and $\Sigma_{\text{post}}$ are the parameters of the p
 >  $\mu_{\text{pred}}= \phi\mu_{\text{post}}$ <br>
 >  $\Sigma_{\text{pred}}= \phi\Sigma_{\text{post}}\phi^T$
 
+---
 ![2 DOF](https://github.com/DumbleDuck/Bayesian_Linear_Regression/blob/main/Results/2%20Dof.png)
+---
 ![3 DOF](https://github.com/DumbleDuck/Bayesian_Linear_Regression/blob/main/Results/3%20DOF.png)
